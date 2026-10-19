@@ -1,0 +1,140 @@
+{
+  "project_name": "kgml_pipeline_pair_action_locked_multiview",
+  "random_seed": 42,
+  "paths": {
+    "reports_dir": "runs/pair_action_locked_multiview_3repeat/reports",
+    "logs_dir": "runs/pair_action_locked_multiview_3repeat/logs"
+  },
+  "locked_multiview_evaluation": {
+    "output_dir": "runs/pair_action_locked_multiview_3repeat/reports",
+    "overwrite_lock": false,
+    "development": {
+      "base_config_path": "config/frozen_development_pairs.json",
+      "cohort_name": "bigkg_drugbank_matched_pairs",
+      "output_dir": "runs/pair_action_locked_multiview_3repeat/development",
+      "relation_routing": {
+        "splits": [
+          "random_pair",
+          "drug_disjoint",
+          "target_disjoint"
+        ]
+      }
+    },
+    "external": {
+      "base_config_path": "config/frozen_cpg0004_pairs.json",
+      "cohort_name": "cpg0004_drugbank_matched_pairs",
+      "output_dir": "runs/pair_action_locked_multiview_3repeat/external",
+      "relation_routing": {
+        "splits": [
+          "random_pair",
+          "drug_disjoint",
+          "target_disjoint",
+          "double_disjoint"
+        ]
+      }
+    },
+    "relation_routing": {
+      "embedding_model": "RGCN",
+      "expert_classifier": "Random Forest",
+      "allowed_views": [
+        "targets_only_label_free",
+        "targets_indication",
+        "targets_anatomy",
+        "targets_pathway",
+        "full_label_free"
+      ],
+      "view_relation_map": {
+        "targets_only_label_free": [
+          "target"
+        ],
+        "targets_indication": [
+          "indication"
+        ],
+        "targets_anatomy": [
+          "anatomy"
+        ],
+        "targets_pathway": [
+          "pathway"
+        ],
+        "full_label_free": [
+          "indication",
+          "anatomy",
+          "pathway"
+        ]
+      },
+      "cv_folds": 5,
+      "cv_repeats": 3,
+      "gate_inner_folds": 3,
+      "rf_estimators": 300,
+      "gate_learning_rate": 0.03,
+      "gate_max_iter": 1500,
+      "gate_l2": 0.001,
+      "gate_entropy_penalty": 0.0,
+      "gate_temperature": 1.0,
+      "gate_patience": 80,
+      "gate_balanced_loss": true,
+      "label_tasks": {
+        "core4_action": {
+          "label_column": "action",
+          "min_class_count": 5,
+          "allowed_classes": [
+            "inhibitor",
+            "agonist",
+            "antagonist",
+            "blocker"
+          ]
+        }
+      }
+    },
+    "selection": {
+      "task": "core4_action",
+      "required_repeats": 3,
+      "selection_splits": [
+        "random_pair",
+        "drug_disjoint",
+        "target_disjoint"
+      ],
+      "candidates": [
+        "expert::targets_only_label_free",
+        "expert::targets_indication",
+        "expert::targets_anatomy",
+        "expert::targets_pathway",
+        "expert::full_label_free",
+        "uniform_average",
+        "ordinary_stacking",
+        "pair_conditioned_gate"
+      ],
+      "incumbent_strategy": "expert::full_label_free",
+      "deterministic_tie_break_order": [
+        "expert::full_label_free",
+        "expert::targets_only_label_free",
+        "expert::targets_indication",
+        "expert::targets_anatomy",
+        "expert::targets_pathway",
+        "uniform_average",
+        "ordinary_stacking",
+        "pair_conditioned_gate"
+      ]
+    },
+    "promotion_criteria": {
+      "primary_splits": [
+        "random_pair",
+        "drug_disjoint",
+        "target_disjoint"
+      ],
+      "strict_splits": [
+        "drug_disjoint",
+        "target_disjoint"
+      ],
+      "noninferiority_margin": 0.005,
+      "minimum_strict_gain": 0.005,
+      "minimum_repeat_wins": 2
+    },
+    "manuscript_locked_fullkg_reference": {
+      "random_pair": 0.9667733146562544,
+      "drug_disjoint": 0.7519020753566809,
+      "target_disjoint": 0.9205080442337015,
+      "double_disjoint": 0.6746283708250248
+    }
+  }
+}

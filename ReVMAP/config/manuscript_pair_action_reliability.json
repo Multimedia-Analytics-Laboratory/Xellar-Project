@@ -1,0 +1,44 @@
+{
+  "project_name": "kgml_locked_four_class_action_reliability",
+  "random_seed": 42,
+  "paths": {
+    "logs_dir": "runs/pair_action_reliability/logs",
+    "reports_dir": "runs/pair_action_reliability/reports"
+  },
+  "action_reliability": {
+    "development_oof_predictions": "runs/pair_action_locked_multiview_3repeat/development/routing_oof_predictions.csv",
+    "development_double_oof_predictions": "runs/pair_action_locked_multiview_3repeat/development_double_disjoint/routing_oof_predictions.csv",
+    "external_oof_predictions": "runs/pair_action_locked_multiview_3repeat/external/routing_oof_predictions.csv",
+    "routing_repeat_metrics": {
+      "development": "runs/pair_action_locked_multiview_3repeat/development/routing_repeat_metrics.csv",
+      "external": "runs/pair_action_locked_multiview_3repeat/external/routing_repeat_metrics.csv"
+    },
+    "drug_only_repeat_metrics": {
+      "development": "runs/pair_action_target_context_sensitivity/development/action_pair_repeat_metrics.csv",
+      "external": "runs/pair_action_target_context_sensitivity/external/action_pair_repeat_metrics.csv"
+    },
+    "external_view_attribution": "runs/pair_action_locked_multiview_3repeat/external/routing_view_attribution.csv",
+    "external_routing_cases": "runs/pair_action_locked_multiview_3repeat/external/routing_cases.jsonl",
+    "pair_action_evidence": "runs/pair_action_ground_truth/reports/pair_action_evidence.csv",
+    "kag_question_records": "runs/pair_action_cpg0004_kag/reports/kag/questions.jsonl",
+    "output_dir": "runs/pair_action_reliability/reports",
+    "strategy": "pair_conditioned_gate",
+    "class_names": [
+      "agonist",
+      "antagonist",
+      "blocker",
+      "inhibitor"
+    ],
+    "calibration_fraction": 0.5,
+    "conformal_alphas": [
+      0.1,
+      0.2
+    ],
+    "selective_coverages": [
+      1.0,
+      0.9,
+      0.8
+    ],
+    "ece_bins": 10
+  }
+}

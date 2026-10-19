@@ -1,0 +1,5 @@
+split,independent_blocker_pairs,exact_blocker_prediction_rate
+double_disjoint,40,0.825
+drug_disjoint,40,0.725
+random_pair,40,0.725
+target_disjoint,40,0.725

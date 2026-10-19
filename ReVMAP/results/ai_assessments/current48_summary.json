@@ -1,0 +1,232 @@
+{
+  "generated_utc": "2026-09-05T18:19:17.532946+00:00",
+  "scope": "Closed-record role-prompted AI audit; not human expert or biological validation",
+  "freeze_manifest_sha256": "a27cf80ab7e8ea4b199a5301a307c8627164d3b5567a49e648d27e9eb172176c",
+  "counts": {
+    "reviewers": 3,
+    "unique_cases": 48,
+    "path_cases": 36,
+    "no_path_cases": 12,
+    "case_assessments": 144,
+    "ordinal_scores": 324,
+    "ab_cases": 4,
+    "ab_assessments": 12
+  },
+  "strata": [
+    {
+      "path_type": "all_paths",
+      "case_count": 36,
+      "relevance_mean": 2.564814814814815,
+      "relevance_case_sd": 0.9914537808931217,
+      "specificity_mean": 2.824074074074074,
+      "specificity_case_sd": 0.9136916610646713,
+      "traceability_mean": 5,
+      "traceability_case_sd": 0.0,
+      "no_path_yes_ratings": 0
+    },
+    {
+      "path_type": "shared_pathway",
+      "case_count": 12,
+      "relevance_mean": 3.5277777777777777,
+      "relevance_case_sd": 0.4811252243246881,
+      "specificity_mean": 3.75,
+      "specificity_case_sd": 0.621581560508061,
+      "traceability_mean": 5,
+      "traceability_case_sd": 0.0,
+      "no_path_yes_ratings": 0
+    },
+    {
+      "path_type": "shared_indication_cotarget",
+      "case_count": 12,
+      "relevance_mean": 2.75,
+      "relevance_case_sd": 0.379393455319664,
+      "specificity_mean": 2.8055555555555554,
+      "specificity_case_sd": 0.5938801248514743,
+      "traceability_mean": 5,
+      "traceability_case_sd": 0.0,
+      "no_path_yes_ratings": 0
+    },
+    {
+      "path_type": "shared_anatomy",
+      "case_count": 12,
+      "relevance_mean": 1.4166666666666667,
+      "relevance_case_sd": 0.5149286505444373,
+      "specificity_mean": 1.9166666666666667,
+      "specificity_case_sd": 0.28867513459481287,
+      "traceability_mean": 5,
+      "traceability_case_sd": 0.0,
+      "no_path_yes_ratings": 0
+    },
+    {
+      "path_type": "no_path",
+      "case_count": 12,
+      "relevance_mean": null,
+      "relevance_case_sd": null,
+      "specificity_mean": null,
+      "specificity_case_sd": null,
+      "traceability_mean": null,
+      "traceability_case_sd": null,
+      "no_path_yes_ratings": 36
+    }
+  ],
+  "agreement": [
+    {
+      "metric": "relevance",
+      "reviewer_pair": "pharmacology / graph",
+      "n": 36,
+      "exact_agreement": 0.8611111111111112,
+      "quadratic_weighted_kappa": 0.9285714285714286,
+      "note": "Descriptive only; role prompts share a model family"
+    },
+    {
+      "metric": "relevance",
+      "reviewer_pair": "pharmacology / methods",
+      "n": 36,
+      "exact_agreement": 0.9166666666666666,
+      "quadratic_weighted_kappa": 0.9591527987897126,
+      "note": "Descriptive only; role prompts share a model family"
+    },
+    {
+      "metric": "relevance",
+      "reviewer_pair": "graph / methods",
+      "n": 36,
+      "exact_agreement": 0.9444444444444444,
+      "quadratic_weighted_kappa": 0.9714285714285714,
+      "note": "Descriptive only; role prompts share a model family"
+    },
+    {
+      "metric": "specificity",
+      "reviewer_pair": "pharmacology / graph",
+      "n": 36,
+      "exact_agreement": 0.9444444444444444,
+      "quadratic_weighted_kappa": 0.9662921348314607,
+      "note": "Descriptive only; role prompts share a model family"
+    },
+    {
+      "metric": "specificity",
+      "reviewer_pair": "pharmacology / methods",
+      "n": 36,
+      "exact_agreement": 0.9166666666666666,
+      "quadratic_weighted_kappa": 0.9506398537477148,
+      "note": "Descriptive only; role prompts share a model family"
+    },
+    {
+      "metric": "specificity",
+      "reviewer_pair": "graph / methods",
+      "n": 36,
+      "exact_agreement": 0.9722222222222222,
+      "quadratic_weighted_kappa": 0.9831460674157303,
+      "note": "Descriptive only; role prompts share a model family"
+    },
+    {
+      "metric": "traceability",
+      "reviewer_pair": "pharmacology / graph",
+      "n": 36,
+      "exact_agreement": 1.0,
+      "quadratic_weighted_kappa": null,
+      "note": "Undefined: both reviewers assign the same constant score"
+    },
+    {
+      "metric": "traceability",
+      "reviewer_pair": "pharmacology / methods",
+      "n": 36,
+      "exact_agreement": 1.0,
+      "quadratic_weighted_kappa": null,
+      "note": "Undefined: both reviewers assign the same constant score"
+    },
+    {
+      "metric": "traceability",
+      "reviewer_pair": "graph / methods",
+      "n": 36,
+      "exact_agreement": 1.0,
+      "quadratic_weighted_kappa": null,
+      "note": "Undefined: both reviewers assign the same constant score"
+    }
+  ],
+  "ab_vote_counts": {
+    "attribution_guided": 4,
+    "unguided": 6,
+    "tie": 2
+  },
+  "ab_case_majorities": [
+    {
+      "comparison_id": "AB5F75B9D8C5",
+      "drug_name": "ketoprofen",
+      "target_name": "ptgs2",
+      "guided_votes": 3,
+      "unguided_votes": 0,
+      "tie_votes": 0,
+      "majority": "attribution_guided"
+    },
+    {
+      "comparison_id": "AB32EF6A399A",
+      "drug_name": "bromocriptine",
+      "target_name": "adra1a",
+      "guided_votes": 0,
+      "unguided_votes": 3,
+      "tie_votes": 0,
+      "majority": "unguided"
+    },
+    {
+      "comparison_id": "ABE07609F5DB",
+      "drug_name": "quetiapine",
+      "target_name": "htr1a",
+      "guided_votes": 0,
+      "unguided_votes": 3,
+      "tie_votes": 0,
+      "majority": "unguided"
+    },
+    {
+      "comparison_id": "AB33CD84F5B4",
+      "drug_name": "quetiapine",
+      "target_name": "chrm5",
+      "guided_votes": 1,
+      "unguided_votes": 0,
+      "tie_votes": 2,
+      "majority": "tie"
+    }
+  ],
+  "case_relevance_all_three_identical": 31,
+  "case_relevance_max_range": 1,
+  "sample_stratification": {
+    "split": {
+      "double_disjoint": 12,
+      "drug_disjoint": 12,
+      "random_pair": 12,
+      "target_disjoint": 12
+    },
+    "predicted_label": {
+      "agonist": 12,
+      "inhibitor": 12,
+      "antagonist": 12,
+      "blocker": 12
+    },
+    "evidence_status": {
+      "contradicted": 8,
+      "supported": 9,
+      "partially_supported": 8,
+      "ontology_disagreement": 8,
+      "insufficient": 8,
+      "mixed": 7
+    }
+  },
+  "inputs": [
+    {
+      "path": "runs/pair_action_reliability/reports/expert_relevance_review_key.csv",
+      "sha256": "da7d252181a822bd4f6c0461a189dff45ab6fdf988e2e184a77cb298dfdae962"
+    },
+    {
+      "path": "runs/pair_action_reliability/reports/expert_relevance_ab_key.csv",
+      "sha256": "85fef5bec6dd22278701a753f21d2b39d782a48146fd2d31da97a7979a9fc99f"
+    }
+  ],
+  "interpretation": [
+    "Scores describe the supplied statements, not upstream source truth.",
+    "No-path cases are excluded from ordinal score means.",
+    "Means average the three reviewer scores within each case; SD describes variation among case averages.",
+    "The stratified 48-case sample is not a random population estimate.",
+    "AI procedural isolation does not make model judgments statistically independent.",
+    "All A/B non-tie votes favored displayed candidate A; method interpretation is confounded by this position pattern in four cases.",
+    "No score was changed after key access."
+  ]
+}

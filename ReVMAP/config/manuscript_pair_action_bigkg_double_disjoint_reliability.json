@@ -1,0 +1,95 @@
+{
+  "project_name": "kgml_development_double_disjoint_reliability",
+  "random_seed": 42,
+  "paths": {
+    "processed_dir": "runs/drugmap_style_bigkg_ablation/processed",
+    "reports_dir": "runs/pair_action_locked_multiview_3repeat/development_double_disjoint",
+    "logs_dir": "runs/pair_action_locked_multiview_3repeat/logs"
+  },
+  "views": {
+    "targets_only_label_free": [
+      "target"
+    ],
+    "targets_indication": [
+      "target",
+      "indication"
+    ],
+    "targets_anatomy": [
+      "target",
+      "anatomy"
+    ],
+    "targets_pathway": [
+      "target",
+      "pathway"
+    ],
+    "full_label_free": [
+      "target",
+      "indication",
+      "anatomy",
+      "pathway"
+    ]
+  },
+  "pair_evaluation": {
+    "cohort_name": "bigkg_drugbank_matched_pairs",
+    "pair_table_path": "runs/pair_action_bigkg_extension/reports/pair_multimodal_cohort.csv"
+  },
+  "relation_routing": {
+    "output_dir": "runs/pair_action_locked_multiview_3repeat/development_double_disjoint",
+    "cohort_name": "bigkg_drugbank_matched_pairs",
+    "pair_table_path": "runs/pair_action_bigkg_extension/reports/pair_multimodal_cohort.csv",
+    "embedding_model": "RGCN",
+    "expert_classifier": "Random Forest",
+    "allowed_views": [
+      "targets_only_label_free",
+      "targets_indication",
+      "targets_anatomy",
+      "targets_pathway",
+      "full_label_free"
+    ],
+    "view_relation_map": {
+      "targets_only_label_free": [
+        "target"
+      ],
+      "targets_indication": [
+        "indication"
+      ],
+      "targets_anatomy": [
+        "anatomy"
+      ],
+      "targets_pathway": [
+        "pathway"
+      ],
+      "full_label_free": [
+        "indication",
+        "anatomy",
+        "pathway"
+      ]
+    },
+    "splits": [
+      "double_disjoint"
+    ],
+    "cv_folds": 5,
+    "cv_repeats": 3,
+    "gate_inner_folds": 3,
+    "rf_estimators": 300,
+    "gate_learning_rate": 0.03,
+    "gate_max_iter": 1500,
+    "gate_l2": 0.001,
+    "gate_entropy_penalty": 0.0,
+    "gate_temperature": 1.0,
+    "gate_patience": 80,
+    "gate_balanced_loss": true,
+    "label_tasks": {
+      "core4_action": {
+        "label_column": "action",
+        "min_class_count": 5,
+        "allowed_classes": [
+          "inhibitor",
+          "agonist",
+          "antagonist",
+          "blocker"
+        ]
+      }
+    }
+  }
+}

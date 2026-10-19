@@ -1,0 +1,289 @@
+degree_dimension,degree_bin,split,repeat,weighting,macro_f1
+drug_context_degree,Q1 sparse,double_disjoint,0,pair,0.700790513833992
+drug_context_degree,Q1 sparse,double_disjoint,0,equal_drug_within_stratum,0.6408939150709017
+drug_context_degree,Q2,double_disjoint,0,pair,0.7363328826320953
+drug_context_degree,Q2,double_disjoint,0,equal_drug_within_stratum,0.6711572735734477
+drug_context_degree,Q3,double_disjoint,0,pair,0.5804283435862383
+drug_context_degree,Q3,double_disjoint,0,equal_drug_within_stratum,0.644045260505925
+drug_context_degree,Q4 dense,double_disjoint,0,pair,0.7855074716006045
+drug_context_degree,Q4 dense,double_disjoint,0,equal_drug_within_stratum,0.6979348879447546
+drug_context_degree,Q1 sparse,double_disjoint,1,pair,0.6566541032889128
+drug_context_degree,Q1 sparse,double_disjoint,1,equal_drug_within_stratum,0.6136860645790887
+drug_context_degree,Q2,double_disjoint,1,pair,0.7889554596215211
+drug_context_degree,Q2,double_disjoint,1,equal_drug_within_stratum,0.7354602259907055
+drug_context_degree,Q3,double_disjoint,1,pair,0.6010458535877531
+drug_context_degree,Q3,double_disjoint,1,equal_drug_within_stratum,0.6538903761566546
+drug_context_degree,Q4 dense,double_disjoint,1,pair,0.7630309218664839
+drug_context_degree,Q4 dense,double_disjoint,1,equal_drug_within_stratum,0.702006728840534
+drug_context_degree,Q1 sparse,double_disjoint,2,pair,0.7092062752134347
+drug_context_degree,Q1 sparse,double_disjoint,2,equal_drug_within_stratum,0.6813574515402281
+drug_context_degree,Q2,double_disjoint,2,pair,0.7909117755629382
+drug_context_degree,Q2,double_disjoint,2,equal_drug_within_stratum,0.7451252753138904
+drug_context_degree,Q3,double_disjoint,2,pair,0.6393625877668431
+drug_context_degree,Q3,double_disjoint,2,equal_drug_within_stratum,0.6901252510709942
+drug_context_degree,Q4 dense,double_disjoint,2,pair,0.756199783334838
+drug_context_degree,Q4 dense,double_disjoint,2,equal_drug_within_stratum,0.6902029506971559
+drug_context_degree,Q1 sparse,drug_disjoint,0,pair,0.7474177474177475
+drug_context_degree,Q1 sparse,drug_disjoint,0,equal_drug_within_stratum,0.7838000973401156
+drug_context_degree,Q2,drug_disjoint,0,pair,0.7857182606093362
+drug_context_degree,Q2,drug_disjoint,0,equal_drug_within_stratum,0.7999860257212443
+drug_context_degree,Q3,drug_disjoint,0,pair,0.6688550420168067
+drug_context_degree,Q3,drug_disjoint,0,equal_drug_within_stratum,0.7090023586228357
+drug_context_degree,Q4 dense,drug_disjoint,0,pair,0.8432300773025214
+drug_context_degree,Q4 dense,drug_disjoint,0,equal_drug_within_stratum,0.8891587002192969
+drug_context_degree,Q1 sparse,drug_disjoint,1,pair,0.7753472222222223
+drug_context_degree,Q1 sparse,drug_disjoint,1,equal_drug_within_stratum,0.8224253659431824
+drug_context_degree,Q2,drug_disjoint,1,pair,0.8242217402099171
+drug_context_degree,Q2,drug_disjoint,1,equal_drug_within_stratum,0.792788267635805
+drug_context_degree,Q3,drug_disjoint,1,pair,0.6619083666919806
+drug_context_degree,Q3,drug_disjoint,1,equal_drug_within_stratum,0.7035072217137451
+drug_context_degree,Q4 dense,drug_disjoint,1,pair,0.8528252069530626
+drug_context_degree,Q4 dense,drug_disjoint,1,equal_drug_within_stratum,0.8757693198889458
+drug_context_degree,Q1 sparse,drug_disjoint,2,pair,0.7656388820875162
+drug_context_degree,Q1 sparse,drug_disjoint,2,equal_drug_within_stratum,0.7580216293086944
+drug_context_degree,Q2,drug_disjoint,2,pair,0.7932271360406766
+drug_context_degree,Q2,drug_disjoint,2,equal_drug_within_stratum,0.7790582716662446
+drug_context_degree,Q3,drug_disjoint,2,pair,0.7520492553353479
+drug_context_degree,Q3,drug_disjoint,2,equal_drug_within_stratum,0.7897891027187391
+drug_context_degree,Q4 dense,drug_disjoint,2,pair,0.7993234250221828
+drug_context_degree,Q4 dense,drug_disjoint,2,equal_drug_within_stratum,0.8289580716143519
+drug_context_degree,Q1 sparse,random_pair,0,pair,0.8869218895880826
+drug_context_degree,Q1 sparse,random_pair,0,equal_drug_within_stratum,0.8242732271876605
+drug_context_degree,Q2,random_pair,0,pair,0.966105275804071
+drug_context_degree,Q2,random_pair,0,equal_drug_within_stratum,0.9038545657311583
+drug_context_degree,Q3,random_pair,0,pair,0.9888833992094862
+drug_context_degree,Q3,random_pair,0,equal_drug_within_stratum,0.9697297297297297
+drug_context_degree,Q4 dense,random_pair,0,pair,0.9754174397031541
+drug_context_degree,Q4 dense,random_pair,0,equal_drug_within_stratum,0.9426194235472587
+drug_context_degree,Q1 sparse,random_pair,1,pair,0.9353593758645493
+drug_context_degree,Q1 sparse,random_pair,1,equal_drug_within_stratum,0.8977924067266294
+drug_context_degree,Q2,random_pair,1,pair,0.9562612852142699
+drug_context_degree,Q2,random_pair,1,equal_drug_within_stratum,0.8760666160243327
+drug_context_degree,Q3,random_pair,1,pair,0.9767870185786228
+drug_context_degree,Q3,random_pair,1,equal_drug_within_stratum,0.9542311321484369
+drug_context_degree,Q4 dense,random_pair,1,pair,0.9840754483611627
+drug_context_degree,Q4 dense,random_pair,1,equal_drug_within_stratum,0.9660353535353535
+drug_context_degree,Q1 sparse,random_pair,2,pair,0.9169067726444775
+drug_context_degree,Q1 sparse,random_pair,2,equal_drug_within_stratum,0.8724040526548291
+drug_context_degree,Q2,random_pair,2,pair,0.9708828278380399
+drug_context_degree,Q2,random_pair,2,equal_drug_within_stratum,0.9123178958108951
+drug_context_degree,Q3,random_pair,2,pair,0.9888833992094862
+drug_context_degree,Q3,random_pair,2,equal_drug_within_stratum,0.9697297297297297
+drug_context_degree,Q4 dense,random_pair,2,pair,0.9795848920330383
+drug_context_degree,Q4 dense,random_pair,2,equal_drug_within_stratum,0.9597965571205007
+drug_context_degree,Q1 sparse,target_disjoint,0,pair,0.854891915064608
+drug_context_degree,Q1 sparse,target_disjoint,0,equal_drug_within_stratum,0.7311007726159287
+drug_context_degree,Q2,target_disjoint,0,pair,0.911951081814424
+drug_context_degree,Q2,target_disjoint,0,equal_drug_within_stratum,0.7804154766727869
+drug_context_degree,Q3,target_disjoint,0,pair,0.9638724198506807
+drug_context_degree,Q3,target_disjoint,0,equal_drug_within_stratum,0.9063799283154121
+drug_context_degree,Q4 dense,target_disjoint,0,pair,0.9187532397483854
+drug_context_degree,Q4 dense,target_disjoint,0,equal_drug_within_stratum,0.7863017934446507
+drug_context_degree,Q1 sparse,target_disjoint,1,pair,0.856869890533791
+drug_context_degree,Q1 sparse,target_disjoint,1,equal_drug_within_stratum,0.7415536525157711
+drug_context_degree,Q2,target_disjoint,1,pair,0.9428266545153565
+drug_context_degree,Q2,target_disjoint,1,equal_drug_within_stratum,0.8554151776840179
+drug_context_degree,Q3,target_disjoint,1,pair,0.9805082259361485
+drug_context_degree,Q3,target_disjoint,1,equal_drug_within_stratum,0.9552764604674364
+drug_context_degree,Q4 dense,target_disjoint,1,pair,0.9313840384390015
+drug_context_degree,Q4 dense,target_disjoint,1,equal_drug_within_stratum,0.8070245726495727
+drug_context_degree,Q1 sparse,target_disjoint,2,pair,0.8720658970658971
+drug_context_degree,Q1 sparse,target_disjoint,2,equal_drug_within_stratum,0.7557353987114048
+drug_context_degree,Q2,target_disjoint,2,pair,0.9454427718366885
+drug_context_degree,Q2,target_disjoint,2,equal_drug_within_stratum,0.8455519127547254
+drug_context_degree,Q3,target_disjoint,2,pair,0.9777337951509154
+drug_context_degree,Q3,target_disjoint,2,equal_drug_within_stratum,0.9366515837104072
+drug_context_degree,Q4 dense,target_disjoint,2,pair,0.9354777707936035
+drug_context_degree,Q4 dense,target_disjoint,2,equal_drug_within_stratum,0.8216097627862334
+target_context_degree,Q1 sparse,double_disjoint,0,pair,0.720012899518255
+target_context_degree,Q1 sparse,double_disjoint,0,equal_drug_within_stratum,0.7427798783502855
+target_context_degree,Q2,double_disjoint,0,pair,0.6485256060144061
+target_context_degree,Q2,double_disjoint,0,equal_drug_within_stratum,0.6675937360654138
+target_context_degree,Q3,double_disjoint,0,pair,0.6693744544092612
+target_context_degree,Q3,double_disjoint,0,equal_drug_within_stratum,0.6727861087651401
+target_context_degree,Q4 dense,double_disjoint,0,pair,0.6737678205253393
+target_context_degree,Q4 dense,double_disjoint,0,equal_drug_within_stratum,0.647088262056415
+target_context_degree,Q1 sparse,double_disjoint,1,pair,0.6788240698208544
+target_context_degree,Q1 sparse,double_disjoint,1,equal_drug_within_stratum,0.7064153902918359
+target_context_degree,Q2,double_disjoint,1,pair,0.7058079050967804
+target_context_degree,Q2,double_disjoint,1,equal_drug_within_stratum,0.7124080888248311
+target_context_degree,Q3,double_disjoint,1,pair,0.6685436656366889
+target_context_degree,Q3,double_disjoint,1,equal_drug_within_stratum,0.6706031595521962
+target_context_degree,Q4 dense,double_disjoint,1,pair,0.685686681270034
+target_context_degree,Q4 dense,double_disjoint,1,equal_drug_within_stratum,0.6772930301179818
+target_context_degree,Q1 sparse,double_disjoint,2,pair,0.7118999644100749
+target_context_degree,Q1 sparse,double_disjoint,2,equal_drug_within_stratum,0.7661280024411623
+target_context_degree,Q2,double_disjoint,2,pair,0.7199784405318003
+target_context_degree,Q2,double_disjoint,2,equal_drug_within_stratum,0.7261070860881313
+target_context_degree,Q3,double_disjoint,2,pair,0.715808604349408
+target_context_degree,Q3,double_disjoint,2,equal_drug_within_stratum,0.7137306674947379
+target_context_degree,Q4 dense,double_disjoint,2,pair,0.6543666390000976
+target_context_degree,Q4 dense,double_disjoint,2,equal_drug_within_stratum,0.64170770632651
+target_context_degree,Q1 sparse,drug_disjoint,0,pair,0.6918600793100529
+target_context_degree,Q1 sparse,drug_disjoint,0,equal_drug_within_stratum,0.727539115463186
+target_context_degree,Q2,drug_disjoint,0,pair,0.7285714285714285
+target_context_degree,Q2,drug_disjoint,0,equal_drug_within_stratum,0.7447421963369888
+target_context_degree,Q3,drug_disjoint,0,pair,0.7610257362742221
+target_context_degree,Q3,drug_disjoint,0,equal_drug_within_stratum,0.7843921782092568
+target_context_degree,Q4 dense,drug_disjoint,0,pair,0.8087145081177255
+target_context_degree,Q4 dense,drug_disjoint,0,equal_drug_within_stratum,0.8167622409316675
+target_context_degree,Q1 sparse,drug_disjoint,1,pair,0.6968747761300953
+target_context_degree,Q1 sparse,drug_disjoint,1,equal_drug_within_stratum,0.7312219393031063
+target_context_degree,Q2,drug_disjoint,1,pair,0.7534491820102025
+target_context_degree,Q2,drug_disjoint,1,equal_drug_within_stratum,0.7445559748749437
+target_context_degree,Q3,drug_disjoint,1,pair,0.7916073545976374
+target_context_degree,Q3,drug_disjoint,1,equal_drug_within_stratum,0.784889713645297
+target_context_degree,Q4 dense,drug_disjoint,1,pair,0.7718119443612026
+target_context_degree,Q4 dense,drug_disjoint,1,equal_drug_within_stratum,0.7530824197157043
+target_context_degree,Q1 sparse,drug_disjoint,2,pair,0.7200681344051058
+target_context_degree,Q1 sparse,drug_disjoint,2,equal_drug_within_stratum,0.7365788915640218
+target_context_degree,Q2,drug_disjoint,2,pair,0.7631104696520519
+target_context_degree,Q2,drug_disjoint,2,equal_drug_within_stratum,0.7532295558871036
+target_context_degree,Q3,drug_disjoint,2,pair,0.7418728051614436
+target_context_degree,Q3,drug_disjoint,2,equal_drug_within_stratum,0.7649643520796108
+target_context_degree,Q4 dense,drug_disjoint,2,pair,0.8190895459595905
+target_context_degree,Q4 dense,drug_disjoint,2,equal_drug_within_stratum,0.8142267004721105
+target_context_degree,Q1 sparse,random_pair,0,pair,0.9321515134165426
+target_context_degree,Q1 sparse,random_pair,0,equal_drug_within_stratum,0.8920751633986929
+target_context_degree,Q2,random_pair,0,pair,0.971324089707003
+target_context_degree,Q2,random_pair,0,equal_drug_within_stratum,0.9524814949642033
+target_context_degree,Q3,random_pair,0,pair,0.9074432542622352
+target_context_degree,Q3,random_pair,0,equal_drug_within_stratum,0.8921872838985139
+target_context_degree,Q4 dense,random_pair,0,pair,0.9871127869791417
+target_context_degree,Q4 dense,random_pair,0,equal_drug_within_stratum,0.9913509376195944
+target_context_degree,Q1 sparse,random_pair,1,pair,0.9369608572846292
+target_context_degree,Q1 sparse,random_pair,1,equal_drug_within_stratum,0.9074037407272632
+target_context_degree,Q2,random_pair,1,pair,0.971324089707003
+target_context_degree,Q2,random_pair,1,equal_drug_within_stratum,0.946969696969697
+target_context_degree,Q3,random_pair,1,pair,0.9093283738440663
+target_context_degree,Q3,random_pair,1,equal_drug_within_stratum,0.8913478648904658
+target_context_degree,Q4 dense,random_pair,1,pair,0.9871127869791417
+target_context_degree,Q4 dense,random_pair,1,equal_drug_within_stratum,0.9913509376195944
+target_context_degree,Q1 sparse,random_pair,2,pair,0.9478203506291355
+target_context_degree,Q1 sparse,random_pair,2,equal_drug_within_stratum,0.9174807292311637
+target_context_degree,Q2,random_pair,2,pair,0.9794577655108965
+target_context_degree,Q2,random_pair,2,equal_drug_within_stratum,0.9629038628090925
+target_context_degree,Q3,random_pair,2,pair,0.9289641792087306
+target_context_degree,Q3,random_pair,2,equal_drug_within_stratum,0.9118860354114775
+target_context_degree,Q4 dense,random_pair,2,pair,0.9914949914949914
+target_context_degree,Q4 dense,random_pair,2,equal_drug_within_stratum,0.9942657058763829
+target_context_degree,Q1 sparse,target_disjoint,0,pair,0.9393961701823892
+target_context_degree,Q1 sparse,target_disjoint,0,equal_drug_within_stratum,0.9057081807081807
+target_context_degree,Q2,target_disjoint,0,pair,0.97140522875817
+target_context_degree,Q2,target_disjoint,0,equal_drug_within_stratum,0.9514297530426563
+target_context_degree,Q3,target_disjoint,0,pair,0.8185556048506359
+target_context_degree,Q3,target_disjoint,0,equal_drug_within_stratum,0.779063101846607
+target_context_degree,Q4 dense,target_disjoint,0,pair,0.847202512351519
+target_context_degree,Q4 dense,target_disjoint,0,equal_drug_within_stratum,0.8141697846022372
+target_context_degree,Q1 sparse,target_disjoint,1,pair,0.9810638534765908
+target_context_degree,Q1 sparse,target_disjoint,1,equal_drug_within_stratum,0.9593058733790999
+target_context_degree,Q2,target_disjoint,1,pair,0.9626920815958773
+target_context_degree,Q2,target_disjoint,1,equal_drug_within_stratum,0.9403824484655665
+target_context_degree,Q3,target_disjoint,1,pair,0.8930188967653562
+target_context_degree,Q3,target_disjoint,1,equal_drug_within_stratum,0.8718510354961657
+target_context_degree,Q4 dense,target_disjoint,1,pair,0.8278572742562809
+target_context_degree,Q4 dense,target_disjoint,1,equal_drug_within_stratum,0.7932034134670461
+target_context_degree,Q1 sparse,target_disjoint,2,pair,0.9393961701823892
+target_context_degree,Q1 sparse,target_disjoint,2,equal_drug_within_stratum,0.9057081807081807
+target_context_degree,Q2,target_disjoint,2,pair,0.9884716115031076
+target_context_degree,Q2,target_disjoint,2,equal_drug_within_stratum,0.9814305317790277
+target_context_degree,Q3,target_disjoint,2,pair,0.8814994463166794
+target_context_degree,Q3,target_disjoint,2,equal_drug_within_stratum,0.8607896272192574
+target_context_degree,Q4 dense,target_disjoint,2,pair,0.8517577543980761
+target_context_degree,Q4 dense,target_disjoint,2,equal_drug_within_stratum,0.8240996951266695
+combined_context_degree,Q1 sparse,double_disjoint,0,pair,0.7128255467236895
+combined_context_degree,Q1 sparse,double_disjoint,0,equal_drug_within_stratum,0.7282238489543803
+combined_context_degree,Q2,double_disjoint,0,pair,0.6352184144505013
+combined_context_degree,Q2,double_disjoint,0,equal_drug_within_stratum,0.657433940239457
+combined_context_degree,Q3,double_disjoint,0,pair,0.7194805194805195
+combined_context_degree,Q3,double_disjoint,0,equal_drug_within_stratum,0.7069727242876636
+combined_context_degree,Q4 dense,double_disjoint,0,pair,0.6968011829516674
+combined_context_degree,Q4 dense,double_disjoint,0,equal_drug_within_stratum,0.6755456952467822
+combined_context_degree,Q1 sparse,double_disjoint,1,pair,0.6563738156761413
+combined_context_degree,Q1 sparse,double_disjoint,1,equal_drug_within_stratum,0.720792058240419
+combined_context_degree,Q2,double_disjoint,1,pair,0.6989270157190227
+combined_context_degree,Q2,double_disjoint,1,equal_drug_within_stratum,0.7149246782027147
+combined_context_degree,Q3,double_disjoint,1,pair,0.7000537674060081
+combined_context_degree,Q3,double_disjoint,1,equal_drug_within_stratum,0.7044677598507456
+combined_context_degree,Q4 dense,double_disjoint,1,pair,0.7141888068358656
+combined_context_degree,Q4 dense,double_disjoint,1,equal_drug_within_stratum,0.7140584460938996
+combined_context_degree,Q1 sparse,double_disjoint,2,pair,0.7233563674415922
+combined_context_degree,Q1 sparse,double_disjoint,2,equal_drug_within_stratum,0.7552268806138027
+combined_context_degree,Q2,double_disjoint,2,pair,0.6918819188191883
+combined_context_degree,Q2,double_disjoint,2,equal_drug_within_stratum,0.7142827680134782
+combined_context_degree,Q3,double_disjoint,2,pair,0.7506166876530092
+combined_context_degree,Q3,double_disjoint,2,equal_drug_within_stratum,0.7423466804471113
+combined_context_degree,Q4 dense,double_disjoint,2,pair,0.6858082497212932
+combined_context_degree,Q4 dense,double_disjoint,2,equal_drug_within_stratum,0.6812989711262856
+combined_context_degree,Q1 sparse,drug_disjoint,0,pair,0.6925094407803092
+combined_context_degree,Q1 sparse,drug_disjoint,0,equal_drug_within_stratum,0.7231475635615296
+combined_context_degree,Q2,drug_disjoint,0,pair,0.7291691791691791
+combined_context_degree,Q2,drug_disjoint,0,equal_drug_within_stratum,0.7466372207170232
+combined_context_degree,Q3,drug_disjoint,0,pair,0.7880960468676246
+combined_context_degree,Q3,drug_disjoint,0,equal_drug_within_stratum,0.7960883460701333
+combined_context_degree,Q4 dense,drug_disjoint,0,pair,0.8330500005755705
+combined_context_degree,Q4 dense,drug_disjoint,0,equal_drug_within_stratum,0.8549260071288384
+combined_context_degree,Q1 sparse,drug_disjoint,1,pair,0.6928746087636932
+combined_context_degree,Q1 sparse,drug_disjoint,1,equal_drug_within_stratum,0.7431463849474151
+combined_context_degree,Q2,drug_disjoint,1,pair,0.7503249275976549
+combined_context_degree,Q2,drug_disjoint,1,equal_drug_within_stratum,0.7397840963560951
+combined_context_degree,Q3,drug_disjoint,1,pair,0.7936366996437773
+combined_context_degree,Q3,drug_disjoint,1,equal_drug_within_stratum,0.7988875985907407
+combined_context_degree,Q4 dense,drug_disjoint,1,pair,0.811998963447401
+combined_context_degree,Q4 dense,drug_disjoint,1,equal_drug_within_stratum,0.8034993508351105
+combined_context_degree,Q1 sparse,drug_disjoint,2,pair,0.7296486845496539
+combined_context_degree,Q1 sparse,drug_disjoint,2,equal_drug_within_stratum,0.7474175322680792
+combined_context_degree,Q2,drug_disjoint,2,pair,0.7448014863835897
+combined_context_degree,Q2,drug_disjoint,2,equal_drug_within_stratum,0.7567045303882933
+combined_context_degree,Q3,drug_disjoint,2,pair,0.7945512452257353
+combined_context_degree,Q3,drug_disjoint,2,equal_drug_within_stratum,0.7984172955914041
+combined_context_degree,Q4 dense,drug_disjoint,2,pair,0.8196681864235056
+combined_context_degree,Q4 dense,drug_disjoint,2,equal_drug_within_stratum,0.839363393160397
+combined_context_degree,Q1 sparse,random_pair,0,pair,0.9283455219547109
+combined_context_degree,Q1 sparse,random_pair,0,equal_drug_within_stratum,0.893859717673332
+combined_context_degree,Q2,random_pair,0,pair,0.9718244754041967
+combined_context_degree,Q2,random_pair,0,equal_drug_within_stratum,0.9554783467890091
+combined_context_degree,Q3,random_pair,0,pair,0.9211151982197737
+combined_context_degree,Q3,random_pair,0,equal_drug_within_stratum,0.899673895920972
+combined_context_degree,Q4 dense,random_pair,0,pair,0.9817480183562788
+combined_context_degree,Q4 dense,random_pair,0,equal_drug_within_stratum,0.987298195631529
+combined_context_degree,Q1 sparse,random_pair,1,pair,0.9308966768525592
+combined_context_degree,Q1 sparse,random_pair,1,equal_drug_within_stratum,0.9042039549036702
+combined_context_degree,Q2,random_pair,1,pair,0.9748951883907635
+combined_context_degree,Q2,random_pair,1,equal_drug_within_stratum,0.9576073037433399
+combined_context_degree,Q3,random_pair,1,pair,0.91973820074468
+combined_context_degree,Q3,random_pair,1,equal_drug_within_stratum,0.8956022824878587
+combined_context_degree,Q4 dense,random_pair,1,pair,0.9817480183562788
+combined_context_degree,Q4 dense,random_pair,1,equal_drug_within_stratum,0.987298195631529
+combined_context_degree,Q1 sparse,random_pair,2,pair,0.9427915831604607
+combined_context_degree,Q1 sparse,random_pair,2,equal_drug_within_stratum,0.9129244265273677
+combined_context_degree,Q2,random_pair,2,pair,0.9825703396790536
+combined_context_degree,Q2,random_pair,2,equal_drug_within_stratum,0.9721454230547181
+combined_context_degree,Q3,random_pair,2,pair,0.9367321610972328
+combined_context_degree,Q3,random_pair,2,equal_drug_within_stratum,0.9152953757418192
+combined_context_degree,Q4 dense,random_pair,2,pair,0.9864613956367012
+combined_context_degree,Q4 dense,random_pair,2,equal_drug_within_stratum,0.9905351614329942
+combined_context_degree,Q1 sparse,target_disjoint,0,pair,0.933438524148884
+combined_context_degree,Q1 sparse,target_disjoint,0,equal_drug_within_stratum,0.89967059518843
+combined_context_degree,Q2,target_disjoint,0,pair,0.9279686769518467
+combined_context_degree,Q2,target_disjoint,0,equal_drug_within_stratum,0.9091171771821289
+combined_context_degree,Q3,target_disjoint,0,pair,0.854552622473808
+combined_context_degree,Q3,target_disjoint,0,equal_drug_within_stratum,0.8115798081324817
+combined_context_degree,Q4 dense,target_disjoint,0,pair,0.8479458994164877
+combined_context_degree,Q4 dense,target_disjoint,0,equal_drug_within_stratum,0.8122947710453615
+combined_context_degree,Q1 sparse,target_disjoint,1,pair,0.9795075925106884
+combined_context_degree,Q1 sparse,target_disjoint,1,equal_drug_within_stratum,0.957708763861804
+combined_context_degree,Q2,target_disjoint,1,pair,0.9659365601371672
+combined_context_degree,Q2,target_disjoint,1,equal_drug_within_stratum,0.9507356170399648
+combined_context_degree,Q3,target_disjoint,1,pair,0.9075968828868761
+combined_context_degree,Q3,target_disjoint,1,equal_drug_within_stratum,0.8790306046970614
+combined_context_degree,Q4 dense,target_disjoint,1,pair,0.8311975334034158
+combined_context_degree,Q4 dense,target_disjoint,1,equal_drug_within_stratum,0.7948245814524885
+combined_context_degree,Q1 sparse,target_disjoint,2,pair,0.933438524148884
+combined_context_degree,Q1 sparse,target_disjoint,2,equal_drug_within_stratum,0.89967059518843
+combined_context_degree,Q2,target_disjoint,2,pair,0.9919346336320507
+combined_context_degree,Q2,target_disjoint,2,equal_drug_within_stratum,0.9906048906048907
+combined_context_degree,Q3,target_disjoint,2,pair,0.8976720349897723
+combined_context_degree,Q3,target_disjoint,2,equal_drug_within_stratum,0.8683741124018545
+combined_context_degree,Q4 dense,target_disjoint,2,pair,0.8484147503668051
+combined_context_degree,Q4 dense,target_disjoint,2,equal_drug_within_stratum,0.818939393939394

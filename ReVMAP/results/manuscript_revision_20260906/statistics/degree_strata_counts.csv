@@ -1,0 +1,13 @@
+degree_dimension,degree_bin,pair_count,unique_drugs,unique_targets,median_degree,minimum_degree,maximum_degree
+drug_context_degree,Q1 sparse,184,84,85,0.0,0,1
+drug_context_degree,Q2,291,89,91,3.0,2,4
+drug_context_degree,Q3,200,55,100,8.0,5,9
+drug_context_degree,Q4 dense,223,56,97,16.0,10,141
+target_context_degree,Q1 sparse,245,87,44,22.0,5,29
+target_context_degree,Q2,222,103,38,42.5,31,59
+target_context_degree,Q3,219,148,58,89.0,61,107
+target_context_degree,Q4 dense,212,135,69,133.0,108,194
+combined_context_degree,Q1 sparse,223,83,47,27.0,7,36
+combined_context_degree,Q2,228,105,58,50.0,37,66
+combined_context_degree,Q3,224,146,68,93.0,67,116
+combined_context_degree,Q4 dense,223,138,78,139.0,117,288

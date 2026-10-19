@@ -1,0 +1,49 @@
+degree_dimension,degree_bin,action_class,pairs,pair_percent,unique_drugs,drug_percent,unique_targets
+drug_context_degree,Q1 sparse,agonist,37,20.108695652173914,14,16.666666666666668,25
+drug_context_degree,Q1 sparse,antagonist,52,28.26086956521739,25,29.761904761904763,23
+drug_context_degree,Q1 sparse,blocker,5,2.717391304347826,3,3.5714285714285716,4
+drug_context_degree,Q1 sparse,inhibitor,90,48.91304347826087,42,50.0,42
+drug_context_degree,Q2,agonist,90,30.927835051546392,19,21.348314606741575,38
+drug_context_degree,Q2,antagonist,124,42.61168384879725,31,34.831460674157306,35
+drug_context_degree,Q2,blocker,27,9.278350515463918,10,11.235955056179776,15
+drug_context_degree,Q2,inhibitor,50,17.18213058419244,29,32.58426966292135,32
+drug_context_degree,Q3,agonist,44,22.0,9,16.363636363636363,35
+drug_context_degree,Q3,antagonist,90,45.0,23,41.81818181818182,39
+drug_context_degree,Q3,blocker,20,10.0,4,7.2727272727272725,19
+drug_context_degree,Q3,inhibitor,46,23.0,19,34.54545454545455,31
+drug_context_degree,Q4 dense,agonist,39,17.48878923766816,12,21.428571428571427,21
+drug_context_degree,Q4 dense,antagonist,116,52.01793721973094,17,30.357142857142858,53
+drug_context_degree,Q4 dense,blocker,20,8.968609865470851,5,8.928571428571429,14
+drug_context_degree,Q4 dense,inhibitor,48,21.524663677130047,22,39.285714285714285,30
+target_context_degree,Q1 sparse,agonist,84,34.285714285714285,24,27.586206896551722,27
+target_context_degree,Q1 sparse,antagonist,140,57.142857142857146,44,50.57471264367816,25
+target_context_degree,Q1 sparse,blocker,12,4.8979591836734695,10,11.494252873563218,7
+target_context_degree,Q1 sparse,inhibitor,9,3.673469387755102,9,10.344827586206897,7
+target_context_degree,Q2,agonist,63,28.37837837837838,23,22.33009708737864,13
+target_context_degree,Q2,antagonist,127,57.207207207207205,55,53.398058252427184,22
+target_context_degree,Q2,blocker,16,7.207207207207207,11,10.679611650485437,8
+target_context_degree,Q2,inhibitor,16,7.207207207207207,14,13.592233009708737,8
+target_context_degree,Q3,agonist,25,11.415525114155251,20,13.513513513513514,13
+target_context_degree,Q3,antagonist,93,42.465753424657535,58,39.189189189189186,18
+target_context_degree,Q3,blocker,34,15.525114155251142,17,11.486486486486486,15
+target_context_degree,Q3,inhibitor,67,30.59360730593607,53,35.810810810810814,23
+target_context_degree,Q4 dense,agonist,38,17.92452830188679,30,22.22222222222222,7
+target_context_degree,Q4 dense,antagonist,22,10.377358490566039,13,9.62962962962963,6
+target_context_degree,Q4 dense,blocker,10,4.716981132075472,9,6.666666666666667,8
+target_context_degree,Q4 dense,inhibitor,142,66.98113207547169,83,61.48148148148148,52
+combined_context_degree,Q1 sparse,agonist,87,39.01345291479821,25,30.120481927710845,31
+combined_context_degree,Q1 sparse,antagonist,117,52.46636771300449,41,49.397590361445786,23
+combined_context_degree,Q1 sparse,blocker,11,4.932735426008969,9,10.843373493975903,7
+combined_context_degree,Q1 sparse,inhibitor,8,3.587443946188341,8,9.63855421686747,7
+combined_context_degree,Q2,agonist,58,25.43859649122807,23,21.904761904761905,17
+combined_context_degree,Q2,antagonist,136,59.64912280701754,56,53.333333333333336,39
+combined_context_degree,Q2,blocker,17,7.456140350877193,9,8.571428571428571,11
+combined_context_degree,Q2,inhibitor,17,7.456140350877193,17,16.19047619047619,9
+combined_context_degree,Q3,agonist,29,12.946428571428571,21,14.383561643835616,16
+combined_context_degree,Q3,antagonist,95,42.410714285714285,56,38.35616438356164,22
+combined_context_degree,Q3,blocker,30,13.392857142857142,16,10.95890410958904,15
+combined_context_degree,Q3,inhibitor,70,31.25,53,36.3013698630137,29
+combined_context_degree,Q4 dense,agonist,36,16.143497757847534,27,19.565217391304348,7
+combined_context_degree,Q4 dense,antagonist,34,15.246636771300448,20,14.492753623188406,11
+combined_context_degree,Q4 dense,blocker,14,6.278026905829597,11,7.971014492753623,10
+combined_context_degree,Q4 dense,inhibitor,139,62.33183856502242,80,57.971014492753625,54

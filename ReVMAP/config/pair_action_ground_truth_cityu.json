@@ -1,0 +1,26 @@
+{
+  "project_name": "kgml_pair_action_ground_truth_rebuild",
+  "random_seed": 42,
+  "paths": {
+    "logs_dir": "runs/pair_action_ground_truth/logs"
+  },
+  "pair_action_ground_truth": {
+    "output_dir": "runs/pair_action_ground_truth/reports",
+    "drugbank_xml": "data/raw/drugbank/full_database.xml",
+    "open_targets_files": [
+      "data/raw/open_targets/part-00000-f57fe3f5-70d3-4ebe-b9ca-b7dac348d291-c000.snappy.parquet",
+      "data/raw/open_targets/part-00001-f57fe3f5-70d3-4ebe-b9ca-b7dac348d291-c000.snappy.parquet"
+    ],
+    "repurposing_hub_tsv": "data/raw/repurposing_hub/Repurposing_Hub_export.txt",
+    "primekg_csv": "data/raw/primekg/kg.csv",
+    "evaluation_output_root": "runs/pair_action_pair_specific_evaluation",
+    "evaluation_base_configs": {
+      "cpg0004": "config/manuscript_pair_action_cpg0004_extension.json",
+      "development": "config/manuscript_pair_action_bigkg_extension.json"
+    },
+    "cohorts": {
+      "cpg0004": "runs/pair_action_cpg0004_extension/reports/pair_multimodal_cohort.csv",
+      "development": "runs/pair_action_bigkg_extension/reports/pair_multimodal_cohort.csv"
+    }
+  }
+}

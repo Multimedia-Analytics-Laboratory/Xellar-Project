@@ -1,0 +1,5 @@
+split,count,mean
+double_disjoint,898,1.0
+drug_disjoint,898,1.0
+random_pair,898,1.0
+target_disjoint,898,1.0

@@ -1,0 +1,30 @@
+{
+  "analysis_id": "manuscript_revision_20260906_matched_control",
+  "protocol_config": "config/manuscript_pair_action_locked_multiview_protocol.json",
+  "expected_protocol_sha256": "63097cdb3c3dc3904cf3564ad131c8e72f66be6bc99f92487701520b770ccb88",
+  "expected_strategy_lock_id": "954bef5546427a535180f7038a81804589f96e817f9a41d63bb7a0f55c0356b6",
+  "feature_mode": "drug_only",
+  "stages": [
+    "external"
+  ],
+  "splits": [
+    "random_pair",
+    "drug_disjoint",
+    "target_disjoint",
+    "double_disjoint"
+  ],
+  "expected_pair_counts": {
+    "external": 898
+  },
+  "expected_entity_counts": {
+    "external": {
+      "drugs": 284,
+      "targets": 209
+    }
+  },
+  "output_dir": "runs/manuscript_revision_20260906/matched_control",
+  "strategy": "pair_conditioned_gate",
+  "strategy_selection": false,
+  "embedding_retraining": false,
+  "description": "Post-lock sensitivity analysis on the external cpg0004 cohort only, using all four original split schemes and all three repeats. Use the locked five RGCN views, Random Forest settings and nested-OOF routing gate with drug embeddings alone. Reuse original pair-gate and full-KG pair-RF predictions; do not rerun development selection or reselect the strategy."
+}

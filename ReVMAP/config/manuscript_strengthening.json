@@ -1,0 +1,21 @@
+{
+  "project_name": "kgml_post_lock_manuscript_strengthening",
+  "paths": {
+    "logs_dir": "runs/manuscript_strengthening/logs",
+    "reports_dir": "runs/manuscript_strengthening/reports"
+  },
+  "manuscript_strengthening": {
+    "routing_predictions": "runs/pair_action_locked_multiview_3repeat/external/routing_oof_predictions.csv",
+    "baseline_prediction_paths": [
+      "runs/pair_action_cpg0004_extension/reports/pair_multimodal_oof_predictions.csv",
+      "runs/pair_action_cpg0004_double_disjoint/reports/pair_multimodal_oof_predictions.csv"
+    ],
+    "graph_edges_json": "runs/pair_action_cpg0004_kag/reports/kag/edges.json",
+    "distmult_training_summary": "runs/drugmap_style_bigkg_ablation/reports/model_training_summary.csv",
+    "output_dir": "runs/manuscript_strengthening/reports",
+    "strategy": "pair_conditioned_gate",
+    "bootstrap_resamples": 2000,
+    "permutation_resamples": 2000,
+    "seed": 20260905
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "doi": "10.7910/DVN/IXA7BM",
+  "version": "2.1",
+  "license": {
+    "name": "CC0 1.0",
+    "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+    "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+    "rightsIdentifier": "CC0-1.0",
+    "rightsIdentifierScheme": "SPDX",
+    "schemeUri": "https://spdx.org/licenses/",
+    "languageCode": "en"
+  },
+  "kg_csv": {
+    "id": 6180620,
+    "persistentId": "",
+    "filename": "kg.csv",
+    "contentType": "text/csv",
+    "friendlyType": "Comma Separated Values",
+    "filesize": 981751236,
+    "storageIdentifier": "s3://dvn-cloud:1805e679c4c-72137dbedbf1",
+    "rootDataFileId": -1,
+    "md5": "aac8191d4fbc5bf09cdf8c3c78b4e75f",
+    "checksum": {
+      "type": "MD5",
+      "value": "aac8191d4fbc5bf09cdf8c3c78b4e75f"
+    },
+    "tabularData": false,
+    "creationDate": "2022-04-24",
+    "publicationDate": "2022-04-25",
+    "lastUpdateTime": "2022-05-02T18:39:28Z",
+    "fileAccessRequest": false
+  }
+}

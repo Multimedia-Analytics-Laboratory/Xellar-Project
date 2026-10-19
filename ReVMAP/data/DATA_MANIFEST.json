@@ -1,0 +1,100 @@
+{
+  "compressed_files": [
+    {
+      "path": "data/predictions/development_routing.csv.gz",
+      "source_relative_path": "runs/pair_action_locked_multiview_3repeat/development/routing_oof_predictions.csv",
+      "uncompressed_bytes": 24838953,
+      "uncompressed_sha256": "11da0ad8b310f6c41af4ad56f29fbb5b073fb5372a640e6f89cc32b4ab1cb1fc"
+    },
+    {
+      "path": "data/predictions/cpg0004_routing.csv.gz",
+      "source_relative_path": "runs/pair_action_locked_multiview_3repeat/external/routing_oof_predictions.csv",
+      "uncompressed_bytes": 18543830,
+      "uncompressed_sha256": "d057a975953e96589e48046049728cbe4400ece37b62ecd5840e3b6cd378d642"
+    },
+    {
+      "path": "data/predictions/cpg0004_baselines.csv.gz",
+      "source_relative_path": "runs/pair_action_cpg0004_extension/reports/pair_multimodal_oof_predictions.csv",
+      "uncompressed_bytes": 5618226,
+      "uncompressed_sha256": "0cb148eba1eae6cb156d16ba114f5f258a0ed2edb2ff78c8e88d1bf29d077a8e"
+    },
+    {
+      "path": "data/predictions/cpg0004_baselines_double_disjoint.csv.gz",
+      "source_relative_path": "runs/pair_action_cpg0004_double_disjoint/reports/pair_multimodal_oof_predictions.csv",
+      "uncompressed_bytes": 1884718,
+      "uncompressed_sha256": "1eceb80c84d8f5e8d78949dad7cb6f328cc67a5549a69e3fd2667efa05113102"
+    },
+    {
+      "path": "data/predictions/matched_control.csv.gz",
+      "source_relative_path": "runs/manuscript_revision_20260906/matched_control/matched_control_oof_predictions.csv",
+      "uncompressed_bytes": 6393148,
+      "uncompressed_sha256": "df46cc0bcba8e1424e1e291663b49773d83a1c26d9d0803f53b85f57098c7ec6"
+    },
+    {
+      "path": "data/predictions/cpg0004_calibrated.csv.gz",
+      "source_relative_path": "runs/pair_action_reliability/reports/external_calibrated_predictions.csv",
+      "uncompressed_bytes": 5531904,
+      "uncompressed_sha256": "edd89a5cc122c4d7629ce5113ce6568d4565b6db3e3c55ded929827187e5a270"
+    },
+    {
+      "path": "data/graphs/development/pathway.csv.gz",
+      "source_relative_path": "runs/github_release_20261019/source_graphs/development/pathway.csv",
+      "uncompressed_bytes": 384597,
+      "uncompressed_sha256": "23cda0926b1f631fcc0fcc10f9fb060e21942831a838c2a4ebf9642d61e0e65e"
+    },
+    {
+      "path": "data/graphs/development/indication.csv.gz",
+      "source_relative_path": "runs/github_release_20261019/source_graphs/development/indication.csv",
+      "uncompressed_bytes": 120462,
+      "uncompressed_sha256": "74a5b37aaf116301d22ef647086934be13b54105733936fdf1eff85c252625c5"
+    },
+    {
+      "path": "data/graphs/development/anatomy.csv.gz",
+      "source_relative_path": "runs/github_release_20261019/source_graphs/development/anatomy.csv",
+      "uncompressed_bytes": 4077973,
+      "uncompressed_sha256": "b545300cf2a8941f1ba7e6864096d712983cd14b50c08c93e1399b860e55be48"
+    },
+    {
+      "path": "data/graphs/development/moa.csv.gz",
+      "source_relative_path": "runs/github_release_20261019/source_graphs/development/moa.csv",
+      "uncompressed_bytes": 154884,
+      "uncompressed_sha256": "f70ed8372a7702d103be26bd76089bd50a8eee7cfcd27a1de2f2b2f456cd2c9d"
+    },
+    {
+      "path": "data/graphs/development/target.csv.gz",
+      "source_relative_path": "runs/github_release_20261019/source_graphs/development/target.csv",
+      "uncompressed_bytes": 138488,
+      "uncompressed_sha256": "a046672c29570d9a4ff56a7f6827ce9135fa191200324cbfa502e44c1e1c0165"
+    },
+    {
+      "path": "data/graphs/cpg0004/pathway.csv.gz",
+      "source_relative_path": "runs/github_release_20261019/source_graphs/cpg0004/pathway.csv",
+      "uncompressed_bytes": 136216,
+      "uncompressed_sha256": "2f477a6a05419d7c7068fc825e5ce9e3770844663004114deb8701094b2c897e"
+    },
+    {
+      "path": "data/graphs/cpg0004/indication.csv.gz",
+      "source_relative_path": "runs/github_release_20261019/source_graphs/cpg0004/indication.csv",
+      "uncompressed_bytes": 79852,
+      "uncompressed_sha256": "7e8929c19c070d957621ec564ae815d2a23e0466d130470f7e49081d377cd779"
+    },
+    {
+      "path": "data/graphs/cpg0004/anatomy.csv.gz",
+      "source_relative_path": "runs/github_release_20261019/source_graphs/cpg0004/anatomy.csv",
+      "uncompressed_bytes": 1171168,
+      "uncompressed_sha256": "012663beac42bc25d5f48b98fb89518c67cfdf7c816f5aab07c1ef62d5166044"
+    },
+    {
+      "path": "data/graphs/cpg0004/moa.csv.gz",
+      "source_relative_path": "runs/github_release_20261019/source_graphs/cpg0004/moa.csv",
+      "uncompressed_bytes": 21176,
+      "uncompressed_sha256": "76ba00117e986da46288e2b1713e15377ba7384096f8ce72781a533c3f8264d8"
+    },
+    {
+      "path": "data/graphs/cpg0004/target.csv.gz",
+      "source_relative_path": "runs/github_release_20261019/source_graphs/cpg0004/target.csv",
+      "uncompressed_bytes": 44212,
+      "uncompressed_sha256": "4179d4b94c42533bed6de986702ac25eb424c726f45d2eb3ccd545c92bae8306"
+    }
+  ]
+}

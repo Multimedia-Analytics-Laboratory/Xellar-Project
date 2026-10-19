@@ -1,0 +1,206 @@
+{
+  "project_name": "kgml_pipeline_manuscript_drugmap_style_cpg0004",
+  "random_seed": 42,
+  "paths": {
+    "combined_metadata_csv": "data/raw/cpg0004/combined_metadata.csv",
+    "repurposing_hub_tsv": "data/raw/repurposing_hub/Repurposing_Hub_export.txt",
+    "primekg_csv": "data/raw/primekg/kg.csv",
+    "prebuilt_benchmark_csv": null,
+    "prebuilt_expanded_targets_csv": null,
+    "open_targets_drug_files": [
+      "data/raw/open_targets/part-00000-f57fe3f5-70d3-4ebe-b9ca-b7dac348d291-c000.snappy.parquet",
+      "data/raw/open_targets/part-00001-f57fe3f5-70d3-4ebe-b9ca-b7dac348d291-c000.snappy.parquet"
+    ],
+    "intermediate_dir": "runs/drugmap_style_cpg0004/intermediate",
+    "processed_dir": "runs/drugmap_style_cpg0004/processed",
+    "reports_dir": "runs/drugmap_style_cpg0004/reports",
+    "logs_dir": "runs/drugmap_style_cpg0004/logs"
+  },
+  "benchmark": {
+    "drug_name_column": "pert_iname",
+    "metadata_moa_column": "Metadata_moa",
+    "repurposing_hub_name_column": "Name",
+    "repurposing_hub_moa_column": "MOA",
+    "repurposing_hub_target_column": "Target",
+    "minimum_moa_count": 8,
+    "target_separator": ","
+  },
+  "relations": {
+    "use_indication": true,
+    "use_pathway": true,
+    "use_anatomy": true,
+    "use_disease_protein": false,
+    "use_ppi": false,
+    "moa_superclass_overrides": {
+      "selective serotonin reuptake inhibitor (SSRI)": "inhibitor",
+      "selective serotonin reuptake inhibitor (ssri)": "inhibitor"
+    }
+  },
+  "primekg_relation_map": {
+    "indication": "indication",
+    "disease_protein": "disease_protein",
+    "ppi": "protein_protein",
+    "anatomy": "anatomy_protein_present",
+    "pathway": "pathway_protein"
+  },
+  "views": {
+    "full_label_free": [
+      "target",
+      "indication",
+      "anatomy",
+      "pathway"
+    ],
+    "targets_only_label_free": [
+      "target"
+    ],
+    "targets_indication": [
+      "target",
+      "indication"
+    ],
+    "targets_anatomy": [
+      "target",
+      "anatomy"
+    ],
+    "targets_pathway": [
+      "target",
+      "pathway"
+    ]
+  },
+  "training": {
+    "split_ratios": [
+      0.8,
+      0.1,
+      0.1
+    ],
+    "models": [
+      "TransE",
+      "TransR",
+      "DistMult",
+      "SimplE",
+      "HolE",
+      "RGCN"
+    ],
+    "loss": "CrossEntropyLoss",
+    "optimizer": "adam",
+    "optimizer_kwargs": {
+      "lr": 0.001,
+      "weight_decay": 1e-05
+    },
+    "training_kwargs": {
+      "num_epochs": 100,
+      "batch_size": 256,
+      "use_tqdm": true
+    },
+    "evaluation_kwargs": {
+      "batch_size": 512
+    },
+    "stopper": "early",
+    "stopper_kwargs": {
+      "metric": "mean_reciprocal_rank",
+      "patience": 5,
+      "larger_is_better": true,
+      "relative_delta": 0.001,
+      "frequency": 5
+    },
+    "device_preference": "auto",
+    "model_specific_kwargs": {
+      "TransE": {
+        "embedding_dim": 128,
+        "scoring_fct_norm": 1
+      },
+      "TransR": {
+        "embedding_dim": 128,
+        "relation_dim": 64
+      },
+      "DistMult": {
+        "embedding_dim": 128
+      },
+      "SimplE": {
+        "embedding_dim": 128
+      },
+      "HolE": {
+        "embedding_dim": 128
+      },
+      "RGCN": {
+        "embedding_dim": 128,
+        "num_layers": 3,
+        "use_bias": true,
+        "interaction": "ComplEx",
+        "edge_dropout": 0.1,
+        "self_loop_dropout": 0.1
+      }
+    }
+  },
+  "evaluation": {
+    "protocol": "repeated_stratified_cv",
+    "label_group": "moa",
+    "allow_label_group_in_views": false,
+    "cv_folds": 5,
+    "cv_repeats": 5,
+    "reuse_completed_results": true,
+    "include_target_multihot_baseline": false,
+    "cohorts": {
+      "cpg0004_graph_shared": {
+        "require_in_view": "targets_only_label_free"
+      },
+      "cpg0004_drugbank_matched": {
+        "table_path": "runs/drugmap_style_cpg0004/intermediate/multimodal/drugbank_multimodal_benchmark.csv",
+        "drug_column": "drug_name",
+        "require_nonempty": [
+          "smiles"
+        ],
+        "require_positive": [
+          "target_count"
+        ],
+        "require_in_view": "targets_only_label_free"
+      }
+    },
+    "label_tasks": {
+      "superclass_4": {
+        "label_column": "relation",
+        "min_class_count": 5
+      },
+      "detailed_moa_29": {
+        "label_column": "tail",
+        "min_class_count": 8,
+        "allowed_views": [
+          "full_label_free"
+        ],
+        "allowed_cohorts": [
+          "cpg0004_graph_shared"
+        ]
+      }
+    }
+  },
+  "multimodal": {
+    "drugbank_xml": "data/raw/drugbank/full_database.xml",
+    "cohort_name": "cpg0004_drugbank_matched",
+    "require_in_view": "targets_only_label_free",
+    "label_tasks": [
+      "superclass_4"
+    ],
+    "models": [
+      "DeepDTAStyle",
+      "GraphDTAStyle",
+      "DruGNNosisStyle"
+    ],
+    "max_smiles_length": 256,
+    "max_protein_length": 1200,
+    "max_text_length": 256,
+    "max_target_text_length": 192,
+    "max_targets_per_drug": 16,
+    "max_atoms_per_drug": 160,
+    "drugnnosis_layers": 2,
+    "hidden_dim": 128,
+    "batch_size": 16,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "epochs": 60,
+    "patience": 8,
+    "validation_fraction": 0.2,
+    "cv_folds": 5,
+    "cv_repeats": 5,
+    "reuse_completed_results": true,
+    "device": "cuda"
+  }
+}

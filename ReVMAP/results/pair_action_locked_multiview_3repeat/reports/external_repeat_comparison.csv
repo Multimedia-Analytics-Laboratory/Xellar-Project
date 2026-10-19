@@ -1,0 +1,13 @@
+split,repeat,seed,selected_strategy,incumbent_strategy,selected_f1_macro,incumbent_f1_macro,delta_selected_minus_incumbent,selected_wins
+double_disjoint,0,42,pair_conditioned_gate,expert::full_label_free,0.7090379254366729,0.6702560468587124,0.03878187857796045,True
+double_disjoint,1,43,pair_conditioned_gate,expert::full_label_free,0.7140720994451801,0.7121959547693197,0.0018761446758603917,True
+double_disjoint,2,44,pair_conditioned_gate,expert::full_label_free,0.7308747553006614,0.6414331108470424,0.08944164445361902,True
+drug_disjoint,0,42,pair_conditioned_gate,expert::full_label_free,0.7672775638001317,0.7599298135096557,0.007347750290475963,True
+drug_disjoint,1,43,pair_conditioned_gate,expert::full_label_free,0.7823572415100926,0.7802580861099544,0.002099155400138164,True
+drug_disjoint,2,44,pair_conditioned_gate,expert::full_label_free,0.778939369395268,0.7155183264504323,0.06342104294483564,True
+random_pair,0,42,pair_conditioned_gate,expert::full_label_free,0.9644721942249606,0.9664987617696535,-0.002026567544692992,False
+random_pair,1,43,pair_conditioned_gate,expert::full_label_free,0.9633754017906432,0.9660395967536486,-0.0026641949630054063,False
+random_pair,2,44,pair_conditioned_gate,expert::full_label_free,0.9708462501152476,0.9677815854454612,0.0030646646697863877,True
+target_disjoint,0,42,pair_conditioned_gate,expert::full_label_free,0.9233144973536592,0.9240847211817392,-0.0007702238280800078,False
+target_disjoint,1,43,pair_conditioned_gate,expert::full_label_free,0.9394499534431572,0.9219142999699476,0.017535653473209623,True
+target_disjoint,2,44,pair_conditioned_gate,expert::full_label_free,0.9426116608935255,0.9155251115494174,0.027086549344108146,True

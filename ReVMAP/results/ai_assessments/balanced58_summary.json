@@ -1,0 +1,206 @@
+{
+  "design": {
+    "seed": 20261018,
+    "split": "drug_disjoint",
+    "covered_pairs": 638,
+    "all_pairs": 898,
+    "changed_pairs": 58,
+    "unchanged_pairs": 580,
+    "sampled_unchanged_controls": 58,
+    "rated_pairs_per_reviewer": 116,
+    "source_sha256": {
+      "runs/manuscript_revision_20260906/explanation/reranking_2x2_selections.csv": "cc029b9b63114c3ad41c8b3e9e99e6aab76a7de083386c179bfa17e36cc34f7b",
+      "runs/pair_action_cpg0004_kag/reports/kag/questions.jsonl": "04ed71f2c7b21498f234ce56f2604da1a9650918c304c726290f589f3e3d3733"
+    },
+    "frozen_inputs_sha256": {
+      "rubric.txt": "39f4a9cf9b8acceb49828c08b8149fd1828e48937a36f7c6d887c9434dfdb5d7",
+      "reviewer_1_materials.jsonl": "d2dab7367acdd610b1ad884584cd8f517e647bbef05446075d9d4f6ff23a64ec",
+      "reviewer_2_materials.jsonl": "fb45b834acad16563cab77cb6b0f0ce6cd15e60a60db98895c98149de6b97019",
+      "allocation_key.csv": "a1d45347ecacb78c94acfb3af415de82c01f4eaf641f5ab68ea00db2ae0eb0a4"
+    },
+    "status": "frozen_before_new_ratings",
+    "human_review": false
+  },
+  "ratings_sha256": {
+    "reviewer_1_ratings.json": "9e0cc9f1a7fd4a1eb636c1fc565ac79e471b971ed6ac6cd6ac399d8ec44aea64",
+    "reviewer_2_ratings.json": "32db6eab00893b1455924339c5bd6d67b898eaf6e1a87fab567ed1459420ce5b"
+  },
+  "reviewer_count": 2,
+  "rating_count": 232,
+  "unique_pairs": 116,
+  "changed_drugs": 28,
+  "changed_combined": {
+    "n": 116,
+    "preferences": {
+      "guided": 14,
+      "structural": 86,
+      "unable_to_judge": 9,
+      "tie": 7
+    },
+    "display_preferences": {
+      "B": 50,
+      "unable_to_judge": 9,
+      "A": 50,
+      "tie": 7
+    },
+    "confidence": {
+      "medium": 83,
+      "high": 20,
+      "low": 13
+    },
+    "relevance_guided": 2.586206896551724,
+    "relevance_structural": 3.293103448275862,
+    "relevance_difference": -0.7068965517241379,
+    "specificity_guided": 2.5172413793103448,
+    "specificity_structural": 3.396551724137931,
+    "specificity_difference": -0.8793103448275862
+  },
+  "controls_combined": {
+    "n": 116,
+    "preferences": {
+      "tie": 116
+    },
+    "display_preferences": {
+      "tie": 116
+    },
+    "confidence": {
+      "high": 116
+    },
+    "relevance_guided": 3.060344827586207,
+    "relevance_structural": 3.060344827586207,
+    "relevance_difference": 0.0,
+    "specificity_guided": 3.1810344827586206,
+    "specificity_structural": 3.1810344827586206,
+    "specificity_difference": 0.0
+  },
+  "changed_joint_preferences": {
+    "mixed": 13,
+    "both_structural": 37,
+    "both_tie": 1,
+    "both_unable_to_judge": 3,
+    "both_guided": 4
+  },
+  "control_joint_preferences": {
+    "both_tie": 58
+  },
+  "per_reviewer": {
+    "1": {
+      "changed": {
+        "n": 58,
+        "preferences": {
+          "guided": 8,
+          "structural": 44,
+          "unable_to_judge": 3,
+          "tie": 3
+        },
+        "display_preferences": {
+          "B": 28,
+          "unable_to_judge": 3,
+          "A": 24,
+          "tie": 3
+        },
+        "confidence": {
+          "medium": 42,
+          "high": 11,
+          "low": 5
+        },
+        "relevance_guided": 2.6379310344827585,
+        "relevance_structural": 3.310344827586207,
+        "relevance_difference": -0.6724137931034483,
+        "specificity_guided": 2.4827586206896552,
+        "specificity_structural": 3.4827586206896552,
+        "specificity_difference": -1.0
+      },
+      "unchanged_control": {
+        "n": 58,
+        "preferences": {
+          "tie": 58
+        },
+        "display_preferences": {
+          "tie": 58
+        },
+        "confidence": {
+          "high": 58
+        },
+        "relevance_guided": 3.086206896551724,
+        "relevance_structural": 3.086206896551724,
+        "relevance_difference": 0.0,
+        "specificity_guided": 3.189655172413793,
+        "specificity_structural": 3.189655172413793,
+        "specificity_difference": 0.0
+      }
+    },
+    "2": {
+      "changed": {
+        "n": 58,
+        "preferences": {
+          "structural": 42,
+          "guided": 6,
+          "tie": 4,
+          "unable_to_judge": 6
+        },
+        "display_preferences": {
+          "A": 26,
+          "B": 22,
+          "tie": 4,
+          "unable_to_judge": 6
+        },
+        "confidence": {
+          "medium": 41,
+          "high": 9,
+          "low": 8
+        },
+        "relevance_guided": 2.5344827586206895,
+        "relevance_structural": 3.2758620689655173,
+        "relevance_difference": -0.7413793103448276,
+        "specificity_guided": 2.5517241379310347,
+        "specificity_structural": 3.310344827586207,
+        "specificity_difference": -0.7586206896551724
+      },
+      "unchanged_control": {
+        "n": 58,
+        "preferences": {
+          "tie": 58
+        },
+        "display_preferences": {
+          "tie": 58
+        },
+        "confidence": {
+          "high": 58
+        },
+        "relevance_guided": 3.0344827586206895,
+        "relevance_structural": 3.0344827586206895,
+        "relevance_difference": 0.0,
+        "specificity_guided": 3.1724137931034484,
+        "specificity_structural": 3.1724137931034484,
+        "specificity_difference": 0.0
+      }
+    }
+  },
+  "score_differences": {
+    "relevance_difference": {
+      "mean": -0.7068965517241379,
+      "drug_cluster_95_interval": [
+        -1.0078156001984127,
+        -0.325
+      ],
+      "equal_drug_weight_mean": -0.6504329004329004,
+      "covered_cohort_content_difference": -0.06426332288401254
+    },
+    "specificity_difference": {
+      "mean": -0.8793103448275862,
+      "drug_cluster_95_interval": [
+        -1.11113184079602,
+        -0.6862745098039216
+      ],
+      "equal_drug_weight_mean": -0.9258658008658008,
+      "covered_cohort_content_difference": -0.07993730407523511
+    }
+  },
+  "bootstrap_resamples": 20000,
+  "bootstrap_unit": "drug; both reviewers kept together within each pair",
+  "citation_correspondence": {
+    "yes": 464
+  },
+  "interpretation": "Closed-record AI contextual-path comparison; not human evaluation, independent source verification, or action-label validation."
+}

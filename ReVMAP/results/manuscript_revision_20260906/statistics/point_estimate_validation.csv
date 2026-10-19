@@ -1,0 +1,97 @@
+check_family,context,metric,original,recomputed,absolute_error,tolerance,passed
+original_method_point_estimates,random_pair|DeepDTA,kgml_macro_f1,0.9662312820436172,0.9662312820436171,1.1102230246251565e-16,1e-12,True
+original_method_point_estimates,random_pair|DeepDTA,baseline_macro_f1,0.9416486966779286,0.9416486966779286,0.0,1e-12,True
+original_method_point_estimates,random_pair|DeepDTA,difference,0.0245825853656884,0.02458258536568847,6.938893903907228e-17,1e-12,True
+original_method_point_estimates,random_pair|GraphDTA,kgml_macro_f1,0.9662312820436172,0.9662312820436171,1.1102230246251565e-16,1e-12,True
+original_method_point_estimates,random_pair|GraphDTA,baseline_macro_f1,0.7000208070977632,0.7000208070977632,0.0,1e-12,True
+original_method_point_estimates,random_pair|GraphDTA,difference,0.266210474945854,0.266210474945854,0.0,1e-12,True
+original_method_point_estimates,random_pair|DruGNNosis,kgml_macro_f1,0.9662312820436172,0.9662312820436171,1.1102230246251565e-16,1e-12,True
+original_method_point_estimates,random_pair|DruGNNosis,baseline_macro_f1,0.933143049745794,0.9331430497457941,1.1102230246251565e-16,1e-12,True
+original_method_point_estimates,random_pair|DruGNNosis,difference,0.0330882322978229,0.033088232297822984,8.326672684688674e-17,1e-12,True
+original_method_point_estimates,drug_disjoint|DeepDTA,kgml_macro_f1,0.7761913915684975,0.7761913915684975,0.0,1e-12,True
+original_method_point_estimates,drug_disjoint|DeepDTA,baseline_macro_f1,0.7526962923392378,0.7526962923392378,0.0,1e-12,True
+original_method_point_estimates,drug_disjoint|DeepDTA,difference,0.0234950992292595,0.023495099229259592,9.367506770274758e-17,1e-12,True
+original_method_point_estimates,drug_disjoint|GraphDTA,kgml_macro_f1,0.7761913915684975,0.7761913915684975,0.0,1e-12,True
+original_method_point_estimates,drug_disjoint|GraphDTA,baseline_macro_f1,0.655932761868547,0.655932761868547,0.0,1e-12,True
+original_method_point_estimates,drug_disjoint|GraphDTA,difference,0.1202586296999503,0.12025862969995038,8.326672684688674e-17,1e-12,True
+original_method_point_estimates,drug_disjoint|DruGNNosis,kgml_macro_f1,0.7761913915684975,0.7761913915684975,0.0,1e-12,True
+original_method_point_estimates,drug_disjoint|DruGNNosis,baseline_macro_f1,0.6845674932545048,0.6845674932545048,0.0,1e-12,True
+original_method_point_estimates,drug_disjoint|DruGNNosis,difference,0.0916238983139925,0.0916238983139925,0.0,1e-12,True
+original_method_point_estimates,target_disjoint|DeepDTA,kgml_macro_f1,0.9351253705634472,0.9351253705634472,0.0,1e-12,True
+original_method_point_estimates,target_disjoint|DeepDTA,baseline_macro_f1,0.9350354713201686,0.9350354713201686,0.0,1e-12,True
+original_method_point_estimates,target_disjoint|DeepDTA,difference,8.989924327866088e-05,8.989924327866088e-05,0.0,1e-12,True
+original_method_point_estimates,target_disjoint|GraphDTA,kgml_macro_f1,0.9351253705634472,0.9351253705634472,0.0,1e-12,True
+original_method_point_estimates,target_disjoint|GraphDTA,baseline_macro_f1,0.641238930950662,0.641238930950662,0.0,1e-12,True
+original_method_point_estimates,target_disjoint|GraphDTA,difference,0.2938864396127852,0.2938864396127852,0.0,1e-12,True
+original_method_point_estimates,target_disjoint|DruGNNosis,kgml_macro_f1,0.9351253705634472,0.9351253705634472,0.0,1e-12,True
+original_method_point_estimates,target_disjoint|DruGNNosis,baseline_macro_f1,0.9019285896877234,0.9019285896877234,0.0,1e-12,True
+original_method_point_estimates,target_disjoint|DruGNNosis,difference,0.0331967808757237,0.03319678087572379,9.020562075079397e-17,1e-12,True
+original_method_point_estimates,double_disjoint|DeepDTA,kgml_macro_f1,0.7179949267275049,0.7179949267275049,0.0,1e-12,True
+original_method_point_estimates,double_disjoint|DeepDTA,baseline_macro_f1,0.6709922055175562,0.6709922055175562,0.0,1e-12,True
+original_method_point_estimates,double_disjoint|DeepDTA,difference,0.0470027212099484,0.04700272120994849,9.020562075079397e-17,1e-12,True
+original_method_point_estimates,double_disjoint|GraphDTA,kgml_macro_f1,0.7179949267275049,0.7179949267275049,0.0,1e-12,True
+original_method_point_estimates,double_disjoint|GraphDTA,baseline_macro_f1,0.5571411118487785,0.5571411118487785,0.0,1e-12,True
+original_method_point_estimates,double_disjoint|GraphDTA,difference,0.1608538148787263,0.16085381487872638,8.326672684688674e-17,1e-12,True
+original_method_point_estimates,double_disjoint|DruGNNosis,kgml_macro_f1,0.7179949267275049,0.7179949267275049,0.0,1e-12,True
+original_method_point_estimates,double_disjoint|DruGNNosis,baseline_macro_f1,0.6792097322632449,0.6792097322632449,0.0,1e-12,True
+original_method_point_estimates,double_disjoint|DruGNNosis,difference,0.0387851944642599,0.03878519446425991,6.938893903907228e-18,1e-12,True
+original_S1_metrics,drug_context_degree|Q1 sparse|double_disjoint,macro_f1,0.6888836307787799,0.6888836307787799,0.0,1e-12,True
+original_S1_metrics,drug_context_degree|Q2|double_disjoint,macro_f1,0.7720667059388515,0.7720667059388515,0.0,1e-12,True
+original_S1_metrics,drug_context_degree|Q3|double_disjoint,macro_f1,0.6069455949802781,0.6069455949802781,0.0,1e-12,True
+original_S1_metrics,drug_context_degree|Q4 dense|double_disjoint,macro_f1,0.7682460589339755,0.7682460589339755,0.0,1e-12,True
+original_S1_metrics,drug_context_degree|Q1 sparse|drug_disjoint,macro_f1,0.762801283909162,0.762801283909162,0.0,1e-12,True
+original_S1_metrics,drug_context_degree|Q2|drug_disjoint,macro_f1,0.8010557122866433,0.8010557122866433,0.0,1e-12,True
+original_S1_metrics,drug_context_degree|Q3|drug_disjoint,macro_f1,0.6942708880147118,0.6942708880147118,0.0,1e-12,True
+original_S1_metrics,drug_context_degree|Q4 dense|drug_disjoint,macro_f1,0.8317929030925889,0.8317929030925889,0.0,1e-12,True
+original_S1_metrics,drug_context_degree|Q1 sparse|random_pair,macro_f1,0.9130626793657032,0.9130626793657032,0.0,1e-12,True
+original_S1_metrics,drug_context_degree|Q2|random_pair,macro_f1,0.9644164629521268,0.9644164629521269,1.1102230246251565e-16,1e-12,True
+original_S1_metrics,drug_context_degree|Q3|random_pair,macro_f1,0.9848512723325316,0.9848512723325317,1.1102230246251565e-16,1e-12,True
+original_S1_metrics,drug_context_degree|Q4 dense|random_pair,macro_f1,0.979692593365785,0.979692593365785,0.0,1e-12,True
+original_S1_metrics,drug_context_degree|Q1 sparse|target_disjoint,macro_f1,0.8612759008880987,0.8612759008880987,0.0,1e-12,True
+original_S1_metrics,drug_context_degree|Q2|target_disjoint,macro_f1,0.9334068360554896,0.9334068360554896,0.0,1e-12,True
+original_S1_metrics,drug_context_degree|Q3|target_disjoint,macro_f1,0.9740381469792482,0.9740381469792482,0.0,1e-12,True
+original_S1_metrics,drug_context_degree|Q4 dense|target_disjoint,macro_f1,0.92853834966033,0.9285383496603301,1.1102230246251565e-16,1e-12,True
+original_S1_metrics,target_context_degree|Q1 sparse|double_disjoint,macro_f1,0.7035789779163948,0.7035789779163948,0.0,1e-12,True
+original_S1_metrics,target_context_degree|Q2|double_disjoint,macro_f1,0.691437317214329,0.691437317214329,0.0,1e-12,True
+original_S1_metrics,target_context_degree|Q3|double_disjoint,macro_f1,0.6845755747984527,0.6845755747984527,0.0,1e-12,True
+original_S1_metrics,target_context_degree|Q4 dense|double_disjoint,macro_f1,0.6712737135984903,0.6712737135984903,0.0,1e-12,True
+original_S1_metrics,target_context_degree|Q1 sparse|drug_disjoint,macro_f1,0.702934329948418,0.702934329948418,0.0,1e-12,True
+original_S1_metrics,target_context_degree|Q2|drug_disjoint,macro_f1,0.748377026744561,0.748377026744561,0.0,1e-12,True
+original_S1_metrics,target_context_degree|Q3|drug_disjoint,macro_f1,0.7648352986777677,0.7648352986777677,0.0,1e-12,True
+original_S1_metrics,target_context_degree|Q4 dense|drug_disjoint,macro_f1,0.7998719994795062,0.7998719994795062,0.0,1e-12,True
+original_S1_metrics,target_context_degree|Q1 sparse|random_pair,macro_f1,0.938977573776769,0.938977573776769,0.0,1e-12,True
+original_S1_metrics,target_context_degree|Q2|random_pair,macro_f1,0.9740353149749676,0.9740353149749675,1.1102230246251565e-16,1e-12,True
+original_S1_metrics,target_context_degree|Q3|random_pair,macro_f1,0.9152452691050108,0.9152452691050107,1.1102230246251565e-16,1e-12,True
+original_S1_metrics,target_context_degree|Q4 dense|random_pair,macro_f1,0.9885735218177584,0.9885735218177584,0.0,1e-12,True
+original_S1_metrics,target_context_degree|Q1 sparse|target_disjoint,macro_f1,0.9532853979471232,0.9532853979471231,1.1102230246251565e-16,1e-12,True
+original_S1_metrics,target_context_degree|Q2|target_disjoint,macro_f1,0.9741896406190516,0.9741896406190517,1.1102230246251565e-16,1e-12,True
+original_S1_metrics,target_context_degree|Q3|target_disjoint,macro_f1,0.8643579826442238,0.8643579826442238,0.0,1e-12,True
+original_S1_metrics,target_context_degree|Q4 dense|target_disjoint,macro_f1,0.8422725136686253,0.8422725136686253,0.0,1e-12,True
+original_S1_metrics,combined_context_degree|Q1 sparse|double_disjoint,macro_f1,0.6975185766138076,0.6975185766138076,0.0,1e-12,True
+original_S1_metrics,combined_context_degree|Q2|double_disjoint,macro_f1,0.675342449662904,0.675342449662904,0.0,1e-12,True
+original_S1_metrics,combined_context_degree|Q3|double_disjoint,macro_f1,0.7233836581798455,0.7233836581798455,0.0,1e-12,True
+original_S1_metrics,combined_context_degree|Q4 dense|double_disjoint,macro_f1,0.6989327465029421,0.6989327465029421,0.0,1e-12,True
+original_S1_metrics,combined_context_degree|Q1 sparse|drug_disjoint,macro_f1,0.7050109113645521,0.7050109113645521,0.0,1e-12,True
+original_S1_metrics,combined_context_degree|Q2|drug_disjoint,macro_f1,0.7414318643834745,0.7414318643834745,0.0,1e-12,True
+original_S1_metrics,combined_context_degree|Q3|drug_disjoint,macro_f1,0.792094663912379,0.792094663912379,0.0,1e-12,True
+original_S1_metrics,combined_context_degree|Q4 dense|drug_disjoint,macro_f1,0.821572383482159,0.821572383482159,0.0,1e-12,True
+original_S1_metrics,combined_context_degree|Q1 sparse|random_pair,macro_f1,0.9340112606559102,0.9340112606559102,0.0,1e-12,True
+original_S1_metrics,combined_context_degree|Q2|random_pair,macro_f1,0.9764300011580046,0.9764300011580046,0.0,1e-12,True
+original_S1_metrics,combined_context_degree|Q3|random_pair,macro_f1,0.9258618533538956,0.9258618533538955,1.1102230246251565e-16,1e-12,True
+original_S1_metrics,combined_context_degree|Q4 dense|random_pair,macro_f1,0.9833191441164196,0.9833191441164196,0.0,1e-12,True
+original_S1_metrics,combined_context_degree|Q1 sparse|target_disjoint,macro_f1,0.9487948802694856,0.9487948802694856,0.0,1e-12,True
+original_S1_metrics,combined_context_degree|Q2|target_disjoint,macro_f1,0.9619466235736884,0.9619466235736883,1.1102230246251565e-16,1e-12,True
+original_S1_metrics,combined_context_degree|Q3|target_disjoint,macro_f1,0.8866071801168188,0.8866071801168188,0.0,1e-12,True
+original_S1_metrics,combined_context_degree|Q4 dense|target_disjoint,macro_f1,0.8425193943955694,0.8425193943955694,0.0,1e-12,True
+original_deletion_repeat_means,double_disjoint|0,mean_delta,0.1097518696483123,0.10975186964831231,1.3877787807814457e-17,1e-12,True
+original_deletion_repeat_means,double_disjoint|1,mean_delta,0.0855349535816246,0.08553495358162463,2.7755575615628914e-17,1e-12,True
+original_deletion_repeat_means,double_disjoint|2,mean_delta,0.0847529510031388,0.08475295100313888,8.326672684688674e-17,1e-12,True
+original_deletion_repeat_means,drug_disjoint|0,mean_delta,0.0968861719813312,0.09688617198133123,2.7755575615628914e-17,1e-12,True
+original_deletion_repeat_means,drug_disjoint|1,mean_delta,0.0612245129159402,0.06122451291594026,6.245004513516506e-17,1e-12,True
+original_deletion_repeat_means,drug_disjoint|2,mean_delta,0.059584980705047,0.05958498070504702,2.0816681711721685e-17,1e-12,True
+original_deletion_repeat_means,random_pair|0,mean_delta,0.0462815057663299,0.046281505766329924,2.0816681711721685e-17,1e-12,True
+original_deletion_repeat_means,random_pair|1,mean_delta,0.049748196783086,0.049748196783085986,1.3877787807814457e-17,1e-12,True
+original_deletion_repeat_means,random_pair|2,mean_delta,0.0458122181825953,0.04581221818259537,6.938893903907228e-17,1e-12,True
+original_deletion_repeat_means,target_disjoint|0,mean_delta,0.0568789413355402,0.05687894133554029,9.020562075079397e-17,1e-12,True
+original_deletion_repeat_means,target_disjoint|1,mean_delta,0.0572562096688641,0.05725620966886419,9.020562075079397e-17,1e-12,True
+original_deletion_repeat_means,target_disjoint|2,mean_delta,0.0649651757551331,0.06496517575513311,1.3877787807814457e-17,1e-12,True

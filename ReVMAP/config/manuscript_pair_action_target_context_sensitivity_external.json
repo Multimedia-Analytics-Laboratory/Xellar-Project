@@ -1,0 +1,56 @@
+{
+  "project_name": "kgml_pair_action_target_context_sensitivity_external",
+  "random_seed": 42,
+  "paths": {
+    "processed_dir": "runs/drugmap_style_cpg0004/processed",
+    "reports_dir": "runs/pair_action_target_context_sensitivity/external",
+    "logs_dir": "runs/pair_action_target_context_sensitivity/logs"
+  },
+  "views": {
+    "full_label_free": [
+      "target",
+      "indication",
+      "anatomy",
+      "pathway"
+    ]
+  },
+  "pair_evaluation": {
+    "cohort_name": "cpg0004_drugbank_matched_pairs_drug_embedding_only",
+    "pair_table_path": "runs/pair_action_cpg0004_extension/reports/pair_multimodal_cohort.csv",
+    "allowed_views": [
+      "full_label_free"
+    ],
+    "allowed_models": [
+      "RGCN"
+    ],
+    "classifiers": [
+      "Random Forest"
+    ],
+    "include_drug_embedding": true,
+    "include_target_embedding": false,
+    "include_abs_difference": false,
+    "include_hadamard_product": false,
+    "splits": [
+      "random_pair",
+      "drug_disjoint",
+      "target_disjoint",
+      "double_disjoint"
+    ],
+    "cv_folds": 5,
+    "cv_repeats": 3,
+    "reuse_completed_results": false,
+    "rf_estimators": 300,
+    "label_tasks": {
+      "core4_action": {
+        "label_column": "action",
+        "min_class_count": 5,
+        "allowed_classes": [
+          "inhibitor",
+          "agonist",
+          "antagonist",
+          "blocker"
+        ]
+      }
+    }
+  }
+}
